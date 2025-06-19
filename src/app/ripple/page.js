@@ -100,7 +100,9 @@ export default function CursorRippleEffect() {
 
   return (
     <>
-    <Nav/>
+      <div>
+        <Nav />
+      </div>
       <div
         className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-100 relative overflow-hidden"
         style={{ cursor: isDragging ? "grabbing" : "crosshair" }}

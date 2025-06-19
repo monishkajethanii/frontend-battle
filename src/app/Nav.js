@@ -8,10 +8,10 @@ const Nav = ({ darkMode, setDarkMode, isMenuOpen, setIsMenuOpen }) => {
     { href: "/stats", label: "Stats" },
     { href: "/graph", label: "Graph" },
     { href: "/loader", label: "Loader" },
-    { href: "/ripple", label: "Ripple Effect" },
-    { href: "/caraousel", label: "Carousel Switch" },
     { href: "/cards", label: "Cards" },
-    { href: "/striking", label: "Striking" },
+    { href: "/parallex", label: "Strike" },
+    { href: "/caraousel", label: "Carousel Switch" },
+    { href: "/ripple", label: "Ripple Effect" },
   ];
 
   const navClass = `px-4 py-2 rounded-md transition-all duration-300 cursor-pointer block text-center sm:text-left`;

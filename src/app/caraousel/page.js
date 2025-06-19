@@ -47,7 +47,3 @@ function FlipImage({ front, back }) {
   );
 }
 
-// Tailwind CSS custom styles (e.g., in global.css or tailwind.config.css)
-/*
-
-*/

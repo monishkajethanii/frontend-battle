@@ -23,15 +23,6 @@ const Page = () => {
     setIsMenuOpen(false);
   };
 
-  const navItems = [
-    { href: "/loader", label: "Loader" },
-    { href: "/ripple", label: "Ripple Effect" },
-    { href: "/testimonials", label: "Testimonials" },
-    { href: "/carousel", label: "Carousel Switch" },
-    { href: "/cards", label: "Cards" },
-    { href: "/striking", label: "Striking" },
-  ];
-
   return (
     <div
       className={`min-h-screen transition-colors duration-300 ${

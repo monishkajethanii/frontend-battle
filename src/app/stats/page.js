@@ -65,7 +65,11 @@ const Dashboard = () => {
         isMenuOpen={isMenuOpen}
         setIsMenuOpen={setIsMenuOpen}
       />
-      <div className="min-h-screen bg-gray-50 p-4 md:p-8">
+     <div
+      className={`min-h-screen transition-colors duration-300 pt-8 ${
+        darkMode ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-800"
+      }`}
+    >
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
             {metrics.map((metric, index) => (
